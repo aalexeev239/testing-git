@@ -1,0 +1,95 @@
+.main {
+padding: 50px 0;
+width:100%;
+text-align: center;
+transition: all 2s;
+}
+
+h1 {
+padding-bottom: 20px;
+font-style: Georgia;
+font-size: 40px;
+}
+
+h1:hover {
+color: #765028;
+/*Тени!!!*/
+}
+
+span {
+font-style: Georgia;	
+font-style: italic;
+font-size: 14px;
+}
+
+span:hover {
+color: #765028;
+}
+
+
+.cookies {
+	display: inline-block;
+	width: 170px;
+	text-align: center;
+}
+
+.cookies p {
+	color:#946c42;
+	font-size: 12px;
+	font-family: Arial;
+}
+p.small {
+	font-style: italic;
+	font-size: 10px;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+h2:before{
+	position:relative;
+	top:9px;
+	z-index: -1;
+	display: block;
+	border-top: 1px solid black;
+	content: "";
+}
+
+span {
+	padding: 0px 10px;
+	background: white;
+}
+
+@media (max-width:550px) {
+	section, span {
+		display:none;
+	}
+	h1 {
+		color: gray;
+		font-size: 30px;
+	}
+	h1:after {
+		display: block;
+		margin-top: 20px;
+		color: #FF3C97;
+		content:"И МЫ ПРОТИВ ПОРНО С НИМИ";
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
